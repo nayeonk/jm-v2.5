@@ -1,0 +1,31 @@
+/* ----- VARIABLES---- */
+html, body {
+  height: auto; }
+
+.bio {
+  background-image: url("//d1btkvhnhp6n3k.cloudfront.net/assets/images/photos/10_wnc-03_hires.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  height:100vh;}
+  .bio__panel {
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    max-width: 1200px; }
+    .bio__panel-inner {
+      background-color: rgba(0, 0, 0, 0.6);
+      box-sizing: border-box;
+      width: 100%;
+      padding: 30px; }
+      @media (min-width: 1024px) {
+        .bio__panel-inner {
+          width: 50%;
+          margin-left: 50%; } }
+    .bio__panel p {
+      line-height: 1.2;
+      font-size: 18px; }
+  .bio footer {
+    color: white; }

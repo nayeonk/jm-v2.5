@@ -1,0 +1,111 @@
+/* ----- VARIABLES---- */
+.connect {
+  background-color: #C7C7C7;
+  background-image: url("../assets/images/connect/connect_bg2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%; }
+  @media (min-width: 768px) {
+    .connect {
+      background-size: cover;
+      background-position: center top; } }
+  .connect .icons {
+    top: 30px;
+    position: relative;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto; }
+    @media (min-width: 768px) {
+      .connect .icons {
+        top: 70px;
+        width: 280px; } }
+    @media (min-width: 1024px) {
+      .connect .icons {
+        top: 50px;
+        width: 420px; } }
+    .connect .icons span {
+      cursor: pointer;
+      display: block;
+      position: relative; }
+    .connect .icons > span {
+      width: 50px;
+      height: 50px;
+      float: left;
+      margin: 20px; }
+      @media (min-width: 768px) {
+        .connect .icons > span {
+          width: 80px;
+          height: 80px;
+          margin: 30px; } }
+      @media (min-width: 1024px) {
+        .connect .icons > span {
+          width: 80px;
+          height: 80px;
+          margin: 30px; } }
+    .connect .icons span span {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: rgba(255, 255, 255, 0.3);
+      box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+      -moz-transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+    .connect .icons span svg {
+      transition: all 0.3s ease-in-out;
+      vertical-align: middle; }
+    .connect .icons span span:last-child {
+      font-size: 25px;
+      line-height: 50px;
+      text-align: center;
+      text-shadow: 1px 1px 0 rgba(216, 65, 40, 0.1), -1px -1px 0 rgba(37, 166, 164, 0.1);
+      background: linear-gradient(45deg, rgba(249, 249, 249, 0.08) 0%, rgba(234, 234, 234, 0.5) 49%, rgba(255, 255, 255, 0.51) 50%, rgba(244, 244, 244, 0.94) 100%); }
+      @media (min-width: 768px) {
+        .connect .icons span span:last-child {
+          font-size: 40px;
+          line-height: 80px; } }
+      @media (min-width: 1024px) {
+        .connect .icons span span:last-child {
+          font-size: 40px;
+          line-height: 80px; } }
+      .connect .icons span span:last-child a {
+        color: rgba(180, 180, 180, 0.8); }
+    .connect .icons > span:nth-child(odd) span:first-child {
+      -moz-transform: rotate(5deg) skewY(-14deg);
+      -webkit-transform: rotate(5deg) skewY(-14deg);
+      transform: rotate(5deg) skewY(-14deg); }
+    .connect .icons > span:nth-child(even) span:first-child {
+      -moz-transform: rotate(-35deg) skewY(-5deg);
+      -webkit-transform: rotate(-35deg) skewY(-5deg);
+      transform: rotate(-35deg) skewY(-5deg); }
+    .connect .icons > span:nth-child(odd) span:nth-child(2) {
+      -moz-transform: rotate(45deg) skewY(-10deg);
+      -webkit-transform: rotate(45deg) skewY(-10deg);
+      transform: rotate(45deg) skewY(-10deg); }
+    .connect .icons > span:nth-child(even) span:nth-child(2) {
+      -moz-transform: rotate(27deg) skewY(-12deg);
+      -webkit-transform: rotate(27deg) skewY(-12deg);
+      transform: rotate(27deg) skewY(-12deg); }
+    .connect .icons > span:nth-child(odd) span:nth-child(3) {
+      -moz-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg); }
+    .connect .icons > span:nth-child(even) span:nth-child(3) {
+      -moz-transform: rotate(30deg);
+      -webkit-transform: rotate(30deg);
+      transform: rotate(30deg); }
+  .connect #text > span:hover span {
+    -moz-transform: rotate(0deg) skewY(0deg);
+    -webkit-transform: rotate(0deg) skewY(0deg);
+    transform: rotate(0deg) skewY(0deg);
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1), -1px -1px 1px rgba(0, 0, 0, 0.1), 3px 3px 0 rgba(205, 119, 221, 0.6), -3px -3px 0 rgba(12, 138, 215, 0.6); }
+    .connect #text > span:hover span a {
+      color: white; }
+  .connect #text > span:hover svg {
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.1)) drop-shadow(-1px -1px 1px rgba(0, 0, 0, 0.1)) drop-shadow(3px 3px 0 rgba(205, 119, 221, 0.6)) drop-shadow(-3px -3px 0 rgba(12, 138, 215, 0.6));
+    -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.1)) drop-shadow(-1px -1px 1px rgba(0, 0, 0, 0.1)) drop-shadow(3px 3px 0 rgba(205, 119, 221, 0.6)) drop-shadow(-3px -3px 0 rgba(12, 138, 215, 0.6)); }

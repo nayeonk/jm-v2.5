@@ -1,0 +1,268 @@
+/*
+Theme Name: JM
+Author: Nayeon Kim
+Description: Created specifically for JM's offical website. 2017.
+Version: 1.0
+
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{font-size:100%;font:inherit;padding:0;border:0;margin:0;vertical-align:baseline}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}.clear{clear:both}
+.sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute !important}
+
+/** BASE **/
+html,body {
+  height: 100%;
+  font-size: 14px;
+  font-family: 'Ubuntu', 'Arial', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  margin-top: 0;
+}
+p {
+  line-height: 2.0;
+  margin-bottom: 10px;
+}
+h1 {
+
+}
+h2 {
+
+}
+h3 {
+
+}
+h4 {
+
+}
+a {
+  color: #a8872d;
+  text-decoration: none;
+}
+a:hover {
+  color: #a8872d;
+  text-decoration: underline;
+}
+h1 a, h2 a {
+  color: #fff;
+}
+h1 a:hover, h2 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+ul {
+  list-style: disc;
+}
+ol {
+  list-style: decimal;
+}
+ol,ul {
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+@media (min-width: 768px) {
+  html, body {
+    font-size: 16px;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 20px;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+}
+
+/** HELPERS **/
+.gold {
+  color: #a8872d;
+}
+
+/** Blog CSS **/
+body {
+	/*background-color: #DEE2E3;
+	background-image: url("assets/images/blog/main_bg_blog_1700.jpg");
+	background-size: cover;
+	background-position: 76% bottom;
+	background-repeat: no-repeat;*/
+}
+/*.blog__container {
+	width: 100%;
+	height: 100%;
+}
+.blog__post-container {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 20px 20px 20px;
+  color: #fbfbfb;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  top: 70px;
+}
+.blog__post-container article {
+	position: relative;
+	padding-left: 65px;
+	margin-bottom: 40px;
+}
+.blog__post-container article h2 {
+  font-size: 24px;
+}
+.blog__post-container article .wp-post-image {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  border: 2px solid #a8872d;
+}*/
+.nav-previous, .nav-next {
+  text-align: center;
+}
+@media (min-width: 768px) {
+	body {
+		/*background-position: 80% top;*/
+	}
+/* .blog__post-container {
+		top: 110px;
+    padding: 30px 30px 20px 30px;
+	}*/
+  .nav-previous, .nav-next {
+    width: 50%;
+    float: left;
+  }
+  .nav-previous {
+    text-align: left;
+  }
+  .nav-next {
+    text-align: right;
+  }
+}
+@media (min-width: 1024px) {
+	body {
+		/*background-position: center 20%;
+		background-attachment: fixed;*/
+	}
+	/*.blog__post-container{
+    box-sizing: border-box;
+		width: 840px;
+    top: 140px;
+    padding: 60px 110px 20px 40px;
+
+    margin-left: 140px;
+    margin-right: 0;
+    margin-bottom: 60px;
+	}
+	.blog__post-container article {
+		padding-left: 120px;
+    margin-bottom: 80px;
+	}
+  .blog__post-container article h2 {
+    font-size: 34px;
+  }
+  .blog__post-container article .wp-post-image {
+    width: 90px;
+    height: 90px;
+    top: -20px;
+  }
+  .blog__post-container article p {
+    font-size: 17px;
+  }*/
+}
+
+/** Blog - template page **/
+.blog {
+  background-color: #DEE2E3;
+}
+.blog__container {
+  width: 100%;
+}
+.blog__bg {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url('assets/images/blog/main_bg_blog_1700.jpg');
+  background-size: cover;
+  background-position: 76%;
+  background-repeat: no-repeat;
+}
+.entry-footer {
+  padding-top: 15px;
+  text-align: left;
+  font-size: 1em;
+}
+@media (min-width: 768px) {
+  .blog__bg {
+    background-position: 80%;
+  }
+}
+@media (min-width: 1024px) {
+  .blog__bg {
+    background-position: 20%;
+  }
+}
+
+/** Stuff CSS **/
+.stuff {
+  color: #fff;
+  background: #333;
+}
+.smblog_masonry_numcol * {
+  /* Plugin apparently needs this for correct layout */
+  box-sizing: border-box; 
+}
+.stuff__wrap {
+  padding-top: 0px;
+}
+.stuff h1 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.sm-grid .grid-sm-boxes-in img {
+  display: block;
+}
+.smblog_masonry_numcol .sm-grid-boxes-caption {
+  padding-top: 0 !important;
+}
+.sm-list-inline.sm-grid-boxes-news {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+.stuff .masonry-brick .grid-sm-border iframe {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .stuff__wrap {
+    padding-top: 0px;
+  }
+  .stuff h1 {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .stuff__wrap {
+    padding-top: 0px;
+  }
+  .stuff h1 {
+    margin-bottom: 25px;
+    font-size: 40px;
+  }
+}
+/** wpDiscuz styles **/
+.wpdiscuz_subscribe_status, .wc-must-login, .wpdiscuz-subscribe-form-intro {
+  color: #555;
+}
+
+/* quick fixes */
+.fun .content__item.instagramLive {
+            background-image: url("//d1btkvhnhp6n3k.cloudfront.net/assets/images/fun/iglive_bu.jpg") !important;
+            background-position: right; }
+.posts .entry-content .embed-youtube { position: relative; padding-bottom: 56.25%; /* 16:9 */ padding-top: 25px; height: 0; }
+.posts .entry-content .embed-youtube iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }

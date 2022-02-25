@@ -1,0 +1,540 @@
+/* ----- VARIABLES---- */
+/* line 4, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects {
+  background-color: #A2A2A2;
+}
+
+/* line 7, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__container {
+  width: 100%;
+}
+
+/* line 12, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list * {
+  box-sizing: border-box;
+}
+
+/* line 15, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list-item {
+  background-color: #242424;
+  color: #808080;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  /* line 15, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list-item {
+    width: 90%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 40px;
+    position: relative;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 15, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list-item {
+    padding-top: 60px;
+  }
+}
+
+/* line 41, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list .project__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  /* line 41, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__title {
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    max-width: 72%;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 41, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__title {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+/* line 58, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list .project__title h2 {
+  font-size: 36px;
+}
+
+@media (min-width: 768px) {
+  /* line 58, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__title h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+    display: inline-block;
+  }
+}
+
+/* line 66, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list .project__title img {
+  width: 200px;
+}
+
+@media (min-width: 768px) {
+  /* line 66, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__title img {
+    width: 180px;
+    vertical-align: middle;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 66, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__title img {
+    width: 250px;
+  }
+}
+
+/* line 79, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list .project__gallery {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  /* line 79, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__gallery {
+    background-color: #000;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 79, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__gallery {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+/* line 93, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list .project__gallery-item {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  /* line 93, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__gallery-item {
+    width: 31%;
+    float: left;
+    margin-bottom: 0px;
+    margin-right: 3.5%;
+  }
+}
+
+/* line 103, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list .project__gallery-item:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+/* line 107, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list .project__gallery-item img {
+  display: block;
+  width: 100%;
+  border: 3px solid #979797;
+}
+
+/* line 114, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list .project__body {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  /* line 114, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__body {
+    background-color: #000;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 114, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__body {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+/* line 128, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list .project__body-left {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  /* line 128, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__body-left {
+    width: 29%;
+    float: left;
+  }
+}
+
+/* line 135, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list .project__body-left img {
+  width: 100%;
+  display: block;
+  border: 3px solid #979797;
+}
+
+/* line 141, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list .project__body-right {
+  width: 100%;
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  /* line 141, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__body-right {
+    width: 71%;
+    padding-left: 25px;
+    float: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 141, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__body-right {
+    padding-left: 35px;
+  }
+}
+
+/* line 152, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list .project__body-right h3 {
+  color: white;
+  font-size: 30px;
+}
+
+/* line 156, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list .project__body-right p {
+  line-height: 1.4;
+}
+
+/* line 159, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list .project__body-right a {
+  color: #808080;
+}
+
+/* line 164, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list .project__description {
+  padding-bottom: 0px;
+}
+
+@media (min-width: 768px) {
+  /* line 164, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__description {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 164, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__description {
+    padding-bottom: 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 164, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__description {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+/* line 178, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list .project__description p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 1024px) {
+  /* line 178, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__description p {
+    font-size: 20px;
+  }
+}
+
+/* line 186, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list .project__awards {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  /* line 186, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__awards {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 186, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__awards {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 186, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__awards {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+/* line 199, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list .project__awards img {
+  padding-right: 20px;
+  width: 25%;
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  /* line 199, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__awards img {
+    width: auto;
+    height: 65px;
+  }
+}
+
+/* line 209, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list .project__link {
+  padding-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  /* line 209, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__link {
+    padding-bottom: 0px;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    display: flex;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 209, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__link {
+    top: 50px;
+  }
+}
+
+/* line 221, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list .project__link a {
+  display: block;
+  width: 235px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 36px;
+  color: #2D48A0;
+  font-weight: bold;
+  font-size: 22px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  /* line 221, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__link a {
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 221, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__link a {
+    width: 235px;
+    right: 60px;
+    top: 60px;
+  }
+}
+
+/* line 245, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__list .project__link a:nth-child(2) {
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  /* line 245, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__list .project__link a:nth-child(2) {
+    margin-top: 0px;
+  }
+}
+
+/* line 256, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__recent {
+  padding-top: 60px;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  /* line 256, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__recent {
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 256, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__recent {
+    padding-top: 120px;
+  }
+}
+
+@media (min-width: 1366px) {
+  /* line 256, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__recent {
+    padding-top: 140px;
+  }
+}
+
+/* line 268, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__recent-container {
+  box-sizing: border-box;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  padding: 40px 20px 20px 20px;
+  color: #fbfbfb;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media (min-width: 768px) {
+  /* line 268, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__recent-container {
+    width: 85%;
+    padding: 55px 40px 30px 35px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 268, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__recent-container {
+    width: 640px;
+    padding: 60px 30px 20px 40px;
+  }
+}
+
+@media (min-width: 1366px) {
+  /* line 268, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__recent-container {
+    width: 820px;
+    padding: 60px 50px 20px 40px;
+  }
+}
+
+/* line 296, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__recent-item {
+  position: relative;
+  padding-left: 65px;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  /* line 296, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__recent-item {
+    padding-left: 90px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 296, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__recent-item {
+    padding-left: 120px;
+    margin-bottom: 80px;
+  }
+}
+
+/* line 307, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__recent-item img {
+  width: 50px;
+  position: absolute;
+  top: -10px;
+  left: 0;
+}
+
+@media (min-width: 768px) {
+  /* line 307, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__recent-item img {
+    width: 70px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 307, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__recent-item img {
+    width: 100px;
+    top: -20px;
+  }
+}
+
+/* line 320, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__recent-item h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  /* line 320, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__recent-item h2 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 320, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+  .projects__recent-item h2 {
+    font-size: 34px;
+  }
+}
+
+/* line 330, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects__recent-item a {
+  color: #fff;
+}
+
+/* line 335, ../../../../../Users/nayeon/Downloads/jm/scss/projects.scss */
+.projects .footer {
+  position: relative;
+}
+
+/*# sourceMappingURL=projects.css.map */
